@@ -1,9 +1,167 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="CLOCA12NSpduD85WpcYU">
-    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-oJC06npQDLTVk7xnE9J-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="-14.799999999999955" y="70" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-2" value="Telegram Web App UI&lt;div&gt;(React.js)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-83" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-3" value="Telegram API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="177" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-6" value="Backend Services" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-579" y="430" width="286" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-4" value="Telegram Bot API&lt;div&gt;Service (node-telegram-bot-api)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-6">
+          <mxGeometry x="26" y="110" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-8" value="Hasura Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-6">
+          <mxGeometry x="26" y="180" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-11" value="Multer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-6">
+          <mxGeometry x="26" y="250" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-20" value="Node.JS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-6">
+          <mxGeometry x="26" y="40" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-9" target="-oJC06npQDLTVk7xnE9J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-9" value="Cloudflare&lt;br&gt;(CDN, Proxy for Frontend)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-83" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-10" value="Cloudflare CDN&lt;br&gt;(Image Storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.39;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-1" target="-oJC06npQDLTVk7xnE9J-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-593" y="200" as="sourcePoint" />
+            <mxPoint x="-543" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-11" target="-oJC06npQDLTVk7xnE9J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-8" target="-oJC06npQDLTVk7xnE9J-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-213" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-4" target="-oJC06npQDLTVk7xnE9J-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-283" y="570" as="sourcePoint" />
+            <mxPoint x="-233" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-263" y="570" />
+              <mxPoint x="-263" y="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-2" target="-oJC06npQDLTVk7xnE9J-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-484" y="270" as="sourcePoint" />
+            <mxPoint x="-484" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-31" value="EC2 (Prod)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-623" y="390" width="770" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-13" value="Hasura Docker Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-31">
+          <mxGeometry x="380" y="165" width="200" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-15" value="Hasura GraphQL Engine (PostresQL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-13">
+          <mxGeometry x="40" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-17" value="Data Connector Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-13">
+          <mxGeometry x="40" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-32" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1320.8" y="70" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-33" value="Telegram Web App UI&lt;div&gt;(React.js)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-34" value="Telegram API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-35" value="Backend Services" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="430" width="286" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-36" value="Telegram Bot API&lt;div&gt;Service (node-telegram-bot-api)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-35">
+          <mxGeometry x="26" y="110" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-37" value="Hasura Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-35">
+          <mxGeometry x="26" y="180" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-38" value="Multer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-35">
+          <mxGeometry x="26" y="250" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-39" value="Node.JS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-35">
+          <mxGeometry x="26" y="40" width="216.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-41" target="-oJC06npQDLTVk7xnE9J-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-41" value="Cloudflare&lt;br&gt;(CDN, Proxy for Frontend)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-42" value="Cloudflare CDN&lt;br&gt;(Image Storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1003" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-43" value="Hasura Docker Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1039" y="555" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-44" value="Hasura GraphQL Engine (PostresQL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-43">
+          <mxGeometry x="180" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-45" value="Data Connector Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-43">
+          <mxGeometry x="40" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.39;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-32" target="-oJC06npQDLTVk7xnE9J-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1403" y="200" as="sourcePoint" />
+            <mxPoint x="-1353" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-38" target="-oJC06npQDLTVk7xnE9J-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-37" target="-oJC06npQDLTVk7xnE9J-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1023" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-33" target="-oJC06npQDLTVk7xnE9J-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1294" y="270" as="sourcePoint" />
+            <mxPoint x="-1294" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-51" value="EC2 (Staging)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1433" y="390" width="770" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-52" target="-oJC06npQDLTVk7xnE9J-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-52" target="-oJC06npQDLTVk7xnE9J-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-52" value="Jobstash Scraping Service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-763" y="80" width="227" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-53" value="Jobstash Scraper" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="-oJC06npQDLTVk7xnE9J-52">
+          <mxGeometry x="53.5" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-36" target="-oJC06npQDLTVk7xnE9J-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-oJC06npQDLTVk7xnE9J-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-oJC06npQDLTVk7xnE9J-34" target="-oJC06npQDLTVk7xnE9J-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
